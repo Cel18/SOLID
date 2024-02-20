@@ -2,7 +2,7 @@ package co.edu.uniquindio.poo;
 
 public abstract class Empleado {
     
-    public final int getSalarioHora = 0;
+    public final int getSalarioHora = 1000;
     protected String nombre; 
     protected String puesto;
     
