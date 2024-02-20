@@ -4,7 +4,7 @@ public abstract class Empleado {
     
     public final int getSalarioHora = 1000;
     protected String nombre; 
-    protected String puesto;
+    protected String cargo;
     
 
     public Empleado(String nombre, String cargo) {
