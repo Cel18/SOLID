@@ -1,0 +1,14 @@
+package co.edu.uniquindio.poo;
+
+public class Conejo extends Animal{
+
+    public Conejo(String nombre, int edad, String raza, int peso, Genero genero) {
+        super(nombre, edad, raza, peso, genero);
+    }
+
+    @Override
+    String emitirSonido() {
+        return "ñac ñac";
+    }
+    
+}
