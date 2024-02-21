@@ -11,4 +11,9 @@ public class Perro extends Animal{
         return "guau";
     }
     
+    @Override
+    public void calcularCantidadMedicamento(){
+        double cantidadMedicamento = peso*0.2;
+        System.out.println("La cantidad de medicamento a administrar es: " + cantidadMedicamento + "ml");
+    }
 }

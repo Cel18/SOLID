@@ -10,5 +10,11 @@ public class Conejo extends Animal{
     String emitirSonido() {
         return "ñac ñac";
     }
+
+    @Override
+    public void calcularCantidadMedicamento() {
+        double cantidadMedicamento = peso*0.3;
+        System.out.println("La cantidad de medicamento a administrar es: " + cantidadMedicamento + "ml");
+    }
     
 }

@@ -10,5 +10,11 @@ public class Gato extends Animal{
     String emitirSonido() {
         return "miau";
     }
+
+    @Override
+    public void calcularCantidadMedicamento(){
+        double cantidadMedicamento = peso*0.1;
+        System.out.println("La cantidad de medicamento a administrar es: " + cantidadMedicamento + "ml");
+    }
     
 }
